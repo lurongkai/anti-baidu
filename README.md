@@ -10,3 +10,7 @@ http://www.coolshell.cn
 #Usage
 
 	<script type="text/javascript" src="http://lurongkai.github.com/anti-baidu/js/loader.js"></script>
+	
+#Contributor
+
+* [维生素CC](http://weibo.com/fanweixiao)
