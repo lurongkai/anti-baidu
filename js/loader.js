@@ -1,7 +1,7 @@
 (function(){
   // http://weibo.com/fanweixiao
   var jQuery_cdn = "http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js";
-  var js_files = ["https://github.com/fanweixiao/anti-baidu/raw/master/js/jquery.bpopup-0.8.0.min.js","https://github.com/fanweixiao/anti-baidu/raw/master/js/anti-baidu-test.js"];
+  var js_files = ["https://github.com/fanweixiao/anti-baidu/raw/master/js/jquery.bpopup-0.8.0.min.js","https://github.com/fanweixiao/anti-baidu/raw/master/js/anti-baidu.js"];
   // Anti baidu
   var anti_baidu = function(){
     jQuery.getScript(js_files[0])
