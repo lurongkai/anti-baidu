@@ -9,4 +9,10 @@ http://www.coolshell.cn
 
 #Usage
 
+Unminified Version:
+
 	<script type="text/javascript" src="http://lurongkai.github.com/anti-baidu/js/loader.js"></script>
+
+Minified Version:
+	
+	<script type="text/javascript" src="http://lurongkai.github.com/anti-baidu/js/loader.min.js"></script>
