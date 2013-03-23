@@ -16,3 +16,7 @@ Unminified Version:
 Minified Version:
 	
 	<script type="text/javascript" src="http://lurongkai.github.com/anti-baidu/js/loader.min.js"></script>
+	
+#Contributor
+
+* [维生素CC](http://weibo.com/fanweixiao)
