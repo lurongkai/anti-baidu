@@ -2,7 +2,7 @@
 
 (function(){
 	var jQuery_cdn = "http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js";
-	var js_files = ["http://lurongkai.github.com/anti-baidu/js/jquery.bpopup-0.8.0.min.js","http://lurongkai.github.com/anti-baidu/js/anti-baidu.min.js"];
+	var js_files = ["http://lurongkai.github.com/anti-baidu/js/jquery.bpopup-0.8.0.min.js","http://lurongkai.github.com/anti-baidu/js/anti-baidu.js"];
 	
   // Anti baidu
 	var anti_baidu = function(){
