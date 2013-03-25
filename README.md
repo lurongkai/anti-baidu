@@ -1,4 +1,5 @@
-anti-baidu
+[作环保的程序员，从不用百度开始](http://coolshell.cn/articles/9308.html)
+
 ==========
 
 anti baidu script.
