@@ -17,11 +17,11 @@ Minified Version:
 
 	<script type="text/javascript" src="http://lurongkai.github.com/anti-baidu/js/loader.min.js"></script>
 
-Single Minified Version:
+Single Minified Version(in test, not recommended):
 
 	<script type="text/javascript" src="http://lurongkai.github.com/anti-baidu/js/anti-baidu-v0.5.min.js"></script>
 
-Newest version:
+Newest version(in test, not recommended):
 
 	<script type="text/javascript" src="http://lurongkai.github.com/anti-baidu/js/anti-baidu-latest.min.js"></script>
 
