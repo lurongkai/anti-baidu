@@ -11,7 +11,7 @@ http://www.coolshell.cn
 
 Unminified Version:
 
-	<script type="text/javascript" src="http://lurongkai.github.com/anti-baidu/js/loader.js"></script>
+	<script type="text/javascript" src="http://lurongkai.github.com/anti-baidu/js/anti-baidu.min.js"></script>
 
 Minified Version:
 	
