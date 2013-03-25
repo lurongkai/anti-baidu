@@ -11,12 +11,20 @@ http://www.coolshell.cn
 
 Unminified Version:
 
-	<script type="text/javascript" src="http://lurongkai.github.com/anti-baidu/js/loader.js"></script>
+	<script type="text/javascript" src="http://lurongkai.github.com/anti-baidu/js/anti-baidu.min.js"></script>
 
 Minified Version:
-	
+
 	<script type="text/javascript" src="http://lurongkai.github.com/anti-baidu/js/loader.min.js"></script>
-	
+
+Single Minified Version:
+
+	<script type="text/javascript" src="http://lurongkai.github.com/anti-baidu/js/anti-baidu-v0.5.min.js"></script>
+
+Newest version:
+
+	<script type="text/javascript" src="http://lurongkai.github.com/anti-baidu/js/anti-baidu-latest.min.js"></script>
+
 #Contributor
 
 * [维生素CC](http://weibo.com/fanweixiao)
