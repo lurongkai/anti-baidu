@@ -10,21 +10,17 @@ http://www.coolshell.cn
 
 #Usage
 
-Unminified Version:
+Minified version(obsolated, not recommended):
 
-	<script type="text/javascript" src="http://lurongkai.github.com/anti-baidu/js/anti-baidu.min.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="http://lurongkai.github.com/anti-baidu/js/loader.min.js"></script>
 
-Minified Version:
+Specified minified version:
 
-	<script type="text/javascript" src="http://lurongkai.github.com/anti-baidu/js/loader.min.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="http://lurongkai.github.com/anti-baidu/js/anti-baidu-v0.5.min.js"></script>
 
-Single Minified Version(in test, not recommended):
+Newest version(recommended):
 
-	<script type="text/javascript" src="http://lurongkai.github.com/anti-baidu/js/anti-baidu-v0.5.min.js"></script>
-
-Newest version(in test, not recommended):
-
-	<script type="text/javascript" src="http://lurongkai.github.com/anti-baidu/js/anti-baidu-latest.min.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="http://lurongkai.github.com/anti-baidu/js/anti-baidu-latest.min.js"></script>
 
 #Contributor
 
