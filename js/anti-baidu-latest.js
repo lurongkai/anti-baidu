@@ -1,13 +1,13 @@
 // Author: http://weibo.com/fanweixiao
 // Revision: http://weibo.com/lengleng3898
+// Version: 0.5
 
 (function(){
 	"use strict";
 	
-	var jQuery_cdn = "http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js";
-	var js_files = "http://lurongkai.github.com/anti-baidu/js/jquery.bpopup-0.8.0.min.js";	
+	var js_files = ["http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js", "http://lurongkai.github.com/anti-baidu/js/jquery.bpopup-0.8.0.min.js"] ;	
 	
-	var jQueryLoader = function(){
+	var jQueryLoader = function(loadSuccessCallback){
 		// Only do anything if jQuery isn't defined
 		if (typeof jQuery === 'undefined') {
 			var getScript = function(url, successFunction) {
@@ -21,7 +21,7 @@
 					if (!done && (!this.readyState || this.readyState === 'loaded' || this.readyState === 'complete')) {
 						done = true;
 						// callback function provided as param
-						successFunction();
+						successFunction(jQuery);
 						script.onload = script.onreadystatechange = null;
 						head.removeChild(script);
 					}
@@ -29,16 +29,18 @@
 				head.appendChild(script);
 			};
 
-			getScript(jQuery_cdn, function() {
+			getScript(js_files[0], function() {
 				if (typeof jQuery === 'undefined') { // Super failsafe - still somehow failed...
 					return;
+				} else{
+					loadSuccessCallback(jQuery);					
 				}
 			});
 		}
 	};
 	
 	var antiBaiduPopup = function($){
-		$.getScript(js_files[0]);
+		$.getScript(js_files[1]);
 		$(document).ready(function(){
 			var antiDiv = '<div id="nobaidu_dlg" style="background-color:#fff; border-radius:15px;color:#000;display:none;padding:20px;min-width:450px;min-height:180px;"><img src="http://lurongkai.github.com/anti-baidu/images/nobaidu.jpg" align="left"><p style="margin-left:200px;margin-top: 20px; line-height: 30px;">检测到你还在使用百度这个搜索引擎，<br>作为一个程序员，这是一种自暴自弃！<br><br></p><p align="center" style="margin-top:20px;"><b><a href="http://coolshell.cn/articles/9308.html">做环保的程序员，从不用百度开始！</a></b></p></div>';
 			$("body").append(antiDiv);
@@ -48,8 +50,7 @@
 	};
 	
 	var antiBaiduHandler = function(){
-		jQueryLoader();
-		antiBaiduPopup(jQuery);
+		jQueryLoader(antiBaiduPopup);
 	};
 	
 	var isReferBaidu = function(){
@@ -64,6 +65,6 @@
 	};
 	
 	if (isReferBaidu) {
-		antiBaiduHandler(antiBaiduPopup);
+		antiBaiduHandler();
 	}
 })();
