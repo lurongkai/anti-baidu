@@ -5,7 +5,7 @@
 (function() {
     "use strict";
 
-    var js_files = ["http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js", "http://lurongkai.github.com/anti-baidu/js/jquery.bpopup-0.8.0.min.js"];
+    var js_files = ["http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js", "http://lurongkai.github.io/anti-baidu/js/jquery.bpopup-0.8.0.min.js"];
 
     var jQueryLoader = function(loadSuccessCallback) {
         // Only do anything if jQuery isn't defined
@@ -63,7 +63,7 @@
         return false;
     };
 
-    if (isReferBaidu) {
+    if (isReferBaidu()) {
         antiBaiduHandler();
     }
 })();
