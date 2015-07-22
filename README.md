@@ -18,7 +18,7 @@ Specified minified version:
 
 	<script type="text/javascript" charset="UTF-8" src="http://lurongkai.github.io/anti-baidu/js/anti-baidu-v0.5.min.js"></script>
 
-Newest version(recommended):
+Latest version(recommended):
 
 	<script type="text/javascript" charset="UTF-8" src="http://lurongkai.github.io/anti-baidu/js/anti-baidu-latest.min.js"></script>
 
