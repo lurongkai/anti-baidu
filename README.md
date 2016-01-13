@@ -10,7 +10,7 @@ http://www.coolshell.cn
 
 #Usage
 
-Minified version(obsolated, not recommended):
+Minified version(obsoleted, not recommended):
 
 	<script type="text/javascript" charset="UTF-8" src="http://lurongkai.github.io/anti-baidu/js/loader.min.js"></script>
 
