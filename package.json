@@ -1,0 +1,22 @@
+{
+  "name": "anti-baidu",
+  "version": "1.0.0",
+  "description": "anti baidu script",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lurongkai/anti-baidu.git"
+  },
+  "keywords": [
+    "anti-baidu"
+  ],
+  "author": "Lu Rongkai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lurongkai/anti-baidu/issues"
+  },
+  "homepage": "https://github.com/lurongkai/anti-baidu#readme"
+}
