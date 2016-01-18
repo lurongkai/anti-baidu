@@ -13,7 +13,7 @@ http://www.coolshell.cn
 Latest version(recommended):
 
 ```
-	<script type="text/javascript" charset="UTF-8" src="http://lurongkai.github.io/anti-baidu/js/anti-baidu-latest.min.js"></script>
+<script type="text/javascript" charset="UTF-8" src="http://lurongkai.github.io/anti-baidu/js/anti-baidu-latest.min.js"></script>
 ```
 #Contributor
 
