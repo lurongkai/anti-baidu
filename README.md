@@ -15,6 +15,12 @@ Latest version(recommended):
 ```
 <script type="text/javascript" charset="UTF-8" src="http://lurongkai.github.io/anti-baidu/js/anti-baidu-latest.min.js"></script>
 ```
+
+国内镜像:
+
+```
+<script type="text/javascript" charset="UTF-8" src="http://1.echowp.sinaapp.com/libs/typecho/anti-baidu-latest.js"></script>
+```
 #Contributor
 
 * [维生素CC](http://weibo.com/fanweixiao)
