@@ -19,7 +19,7 @@ Latest version(recommended):
 国内镜像:
 
 ```
-<script type="text/javascript" charset="UTF-8" src="http://1.echowp.sinaapp.com/libs/typecho/anti-baidu-latest.js"></script>
+<script type="text/javascript" charset="UTF-8" src="http://1.echowp.sinaapp.com/libs/anti-baidu/anti-baidu-latest.min.js"></script>
 ```
 #Contributor
 
