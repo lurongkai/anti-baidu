@@ -16,11 +16,6 @@ Latest version(recommended):
 <script type="text/javascript" charset="UTF-8" src="http://lurongkai.github.io/anti-baidu/js/anti-baidu-latest.min.js"></script>
 ```
 
-鉴于国内的环境，[@SteveEcho](https://github.com/SteveEcho)提供了国内的同步镜像:
-
-```
-<script type="text/javascript" charset="UTF-8" src="http://1.echowp.sinaapp.com/libs/anti-baidu/anti-baidu-latest.min.js"></script>
-```
 #Contributor
 
 * [维生素CC](http://weibo.com/fanweixiao)
