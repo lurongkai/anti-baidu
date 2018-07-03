@@ -1,24 +1,23 @@
 // Author: http://weibo.com/fanweixiao
 
 (function () {
-    var jQuery_cdn = "http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js";
-    var jquery_bpopup = "http://lurongkai.github.com/anti-baidu/js/jquery.bpopup-0.8.0.min.js";
+    var jQuery_cdn = "https://cdn.bootcss.com/jquery/1.12.4/jquery.js"; 
+    var jQuery_bpopup_cdn = "https://cdn.bootcss.com/bPopup/0.11.0/jquery.bpopup.min.js"; 
 
     var isBaiduReferrer = (function () {
         var url=document.referrer;
-        if (url && (url.search("http://") > -1 || url.search("https://") > -1)) {
+        if (url && (url.search("http[s]?://") > -1 )) {
             var refurl = url.match(/:\/\/(.[^/]+)/)[1];
             if (refurl.indexOf("baidu.com") > -1) {
                 return true;
             }
         }
-
         return false;
     })();
 
     var loader = function () {
         var anti_baidu = function () {
-            jQuery.getScript(jquery_bpopup)
+            jQuery.getScript(jQuery_bpopup_cdn)
                 .done(function () {
                     (function ($) {
                         $(document).ready(function () {
