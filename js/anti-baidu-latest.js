@@ -6,7 +6,7 @@
 
     var isBaiduReferrer = (function () {
         var url=document.referrer;
-	if ( isTest === true ) {
+	if ( typeof isTest !== 'undefined' ) {
 	    url = TestURL;
 	}
 
