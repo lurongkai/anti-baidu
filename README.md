@@ -11,7 +11,7 @@ Reference : [作环保的程序员，从不用百度开始](http://coolshell.cn/
 Latest version(recommended):
 
 ```
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/haoel/anti-baidu/js/anti-baidu-latest.min.js" charset="UTF-8"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/lurongkai/anti-baidu/js/anti-baidu-latest.min.js" charset="UTF-8"></script>
 ```
 
 # Contributor

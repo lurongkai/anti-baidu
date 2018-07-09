@@ -61,7 +61,7 @@
                             var antiDiv = '<div id="nobaidu_dlg" class="anti-baidu-col-4" style="background-color:#fff; border-radius:15px;color:#000;display:none;padding:20px;min-height:180px;">'+
                                           '  <div class="anti-baidu-row">' +
                                           '    <div class="anti-baidu-col-5" style="text-align:center;">' +
-                                          '      <img src="https://cdn.jsdelivr.net/gh/haoel/anti-baidu/images/nobaidu.jpg">'+
+                                          '      <img src="https://cdn.jsdelivr.net/gh/lurongkai/anti-baidu/images/nobaidu.jpg">'+
                                           '    </div>' +
                                           '    <div class="anti-baidu-col-7" style="text-align:center;line-height: 30px;padding-top: 35px;">'+
                                           '      检测到你还在使用百度这个搜索引擎<br>作为一个程序员，这是一种自暴自弃'+
