@@ -16,4 +16,5 @@ Latest version(recommended):
 
 # Contributor
 
-* [维生素CC](http://weibo.com/fanweixiao)
+* [维生素CC](https://weibo.com/fanweixiao)
+* [haoel](https://github.com/haoel)
