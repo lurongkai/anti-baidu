@@ -2,13 +2,26 @@
 <html>
 	<head>
 		<title>anti-baidu-test</title>
-		<script type="text/javascript" src="./js/anti-baidu-latest.js" charset="UTF-8"></script>
-		<script type="text/javascript" src="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js" charset="UTF-8"></script>
-		<script type="text/javascript" src="http://lurongkai.github.com/anti-baidu/js/jquery.bpopup-0.8.0.min.js" charset="UTF-8"></script>
-		<script type="text/javascript" src="http://lurongkai.github.com/anti-baidu/js/anti-baidu.js" charset="UTF-8"></script>
-        
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<script type="text/javascript">
+			var isTest = true;
+			var testURL = "http://www.baidu.com/";
+		</script>
+
+		<script type="text/javascript" src="./js/anti-baidu-latest.js" charset="UTF-8"></script>  
 	</head>
 	<body>
-		assign isBaiduReferrer to true before test.
+		<div class="anti-baidu-row">
+			<div class="anti-baidu-col-12">
+				<h2>If you can see the Anti-Baidu popup, it means everything works...</h2>
+			</div>
+		</div>
+		<div class="row">
+		  <div class="anti-baidu-col-4" style="background-color:#c00; ">.anti-baidu-col-4</div>
+		  <div class="anti-baidu-col-4" style="background-color:#0c0; ">.anti-baidu-col-4</div>
+		  <div class="anti-baidu-col-4" style="background-color:#00c; ">.anti-baidu-col-4</div>
+		</div>
+
 	</body>
 </html>
